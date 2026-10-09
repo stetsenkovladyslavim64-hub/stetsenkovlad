@@ -1,5 +1,5 @@
 "use strict";
 
-const inc = (n) => n + 1;
+const inc = (o) => o.n++;
 
 module.exports = { inc };
