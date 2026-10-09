@@ -1,9 +1,9 @@
 "use strict";
 
 const fn = () => {
-  const before = x;
-  var x = 5;
-  return [before, x];
+  const x = 5;
+  const after = x;
+  return [after, x];
 };
 
 module.exports = { fn };
