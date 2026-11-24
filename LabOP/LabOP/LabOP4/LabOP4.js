@@ -69,45 +69,4 @@ const ages = (persons) => {
   return result;
 };
 
-// ---------- Перевірка ----------
 
-// for (const sum of [sumFor, sumForOf, sumWhile, sumDoWhile, sumReduce]) {
-//   assert.strictEqual(sum(1, 2, 3), 6);
-//   assert.strictEqual(sum(0), 0);
-//   assert.strictEqual(sum(), 0);
-//   assert.strictEqual(sum(1, -1, 1), 1);
-//   assert.strictEqual(sum(10, -1, -1, -1), 7);
-// }
-
-// assert.strictEqual(
-//   max([
-//     [1, 2, 3],
-//     [4, 5, 6],
-//     [7, 8, 9],
-//   ]),
-//   9,
-// );
-// assert.strictEqual(max([[-5, -2], [-9]]), -2);
-
-// const persons = {
-//   lenin: { born: 1870, died: 1924 },
-//   mao: { born: 1893, died: 1976 },
-//   gandhi: { born: 1869, died: 1948 },
-//   hirohito: { born: 1901, died: 1989 },
-// };
-// assert.deepStrictEqual(ages(persons), {
-//   lenin: 54,
-//   mao: 83,
-//   gandhi: 79,
-//   hirohito: 88,
-// });
-
-// console.log();
-// console.log(
-//   max([
-//     [1, 2, 3],
-//     [4, 5, 6],
-//     [7, 8, 9],
-//   ]),
-// );
-// console.log(ages(persons));
